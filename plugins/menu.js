@@ -40,7 +40,7 @@ cmd({
     ┃⏮️╰───────────┈⊷
     ╰──────────────┈⊷\
     `;
-    const _0x18e40d = {https://whatsapp.com/channel/0029Vb691MgG8l5GHg8HgI3b
+    const _0x18e40d = {
       'mentionedJid': [_0x5253a9.sender],
       'forwardingScore': 0x3e7,
       'isForwarded': true,
@@ -52,7 +52,7 @@ cmd({
     };
     const _0x579a22 = async () => {
       try {
-        return await _0x1f175b.sendMessage(_0x98cd0, {https://whatsapp.com/channel/0029Vb691MgG8l5GHg8HgI3b
+        return await _0x1f175b.sendMessage(_0x98cd0, {
           'image': {
             'url':"https://files.catbox.moe/zqu8s7.jpg"
           },
@@ -63,7 +63,7 @@ cmd({
         });
       } catch (_0xda0c92) {
         console.log("Image send failed, falling back to text");
-        return await _0x1f175b.sendMessage(_0x98cd0, {https://whatsapp.com/channel/0029Vb691MgG8l5GHg8HgI3b
+        return await _0x1f175b.sendMessage(_0x98cd0, {
           'text': _0x3a9262,
           'contextInfo': _0x18e40d
         }, {
@@ -74,7 +74,7 @@ cmd({
     const _0x5080a8 = async () => {
       try {
         await new Promise(_0x3a860f => setTimeout(_0x3a860f, 0x3e8));
-        await _0x1f175b.sendMessage(_0x98cd0, {https://whatsapp.com/channel/0029Vb691MgG8l5GHg8HgI3b
+        await _0x1f175b.sendMessage(_0x98cd0, {
           'audio': {
             'url': "https://files.catbox.moe/g50hun.m4a"
           },
@@ -103,7 +103,7 @@ cmd({
       }
     }
     const _0x184367 = _0x45ec7b.key.id;
-    const _0x70be46 = {https://whatsapp.com/channel/0029Vb691MgG8l5GHg8HgI3b
+    const _0x70be46 = {
       '1': {
         'title': "📥 *Download Menu* 📥",
         'content': `╭━━━〔 *Download Menu* 〕━━━┈⊷
@@ -314,7 +314,7 @@ cmd({
             const _0x2ea0c9 = _0x70be46[_0x266910];
             try {
               if (_0x2ea0c9.image) {
-                await _0x1f175b.sendMessage(_0x473499, {https://whatsapp.com/channel/0029Vb691MgG8l5GHg8HgI3b
+                await _0x1f175b.sendMessage(_0x473499, {
                   'image': {
                     'url':"https://files.catbox.moe/zqu8s7.jpg"
                   },
@@ -324,14 +324,14 @@ cmd({
                   'quoted': _0x1a45cf
                 });
               } else {
-                await _0x1f175b.sendMessage(_0x473499, {https://whatsapp.com/channel/0029Vb691MgG8l5GHg8HgI3b
+                await _0x1f175b.sendMessage(_0x473499, {
                   'text': _0x2ea0c9.content,
                   'contextInfo': _0x18e40d
                 }, {
                   'quoted': _0x1a45cf
                 });
               }
-              await _0x1f175b.sendMessage(_0x473499, {https://whatsapp.com/channel/0029Vb691MgG8l5GHg8HgI3b
+              await _0x1f175b.sendMessage(_0x473499, {
                 'react': {
                   'text': '✅',
                   'key': _0x1a45cf.key
@@ -339,7 +339,7 @@ cmd({
               });
             } catch (_0x283101) {
               console.log("Menu reply error:", _0x283101);
-              await _0x1f175b.sendMessage(_0x473499, {https://whatsapp.com/channel/0029Vb691MgG8l5GHg8HgI3b
+              await _0x1f175b.sendMessage(_0x473499, {
                 'text': _0x2ea0c9.content,
                 'contextInfo': _0x18e40d
               }, {
@@ -347,7 +347,7 @@ cmd({
               });
             }
           } else {
-            await _0x1f175b.sendMessage(_0x473499, {https://whatsapp.com/channel/0029Vb691MgG8l5GHg8HgI3b
+            await _0x1f175b.sendMessage(_0x473499, {
               'text': "❌ *Invalid Option!* ❌\n\nPlease reply with a number between 1-10 to select a menu.\n\n*Example:* Reply with \"1\" for Download Menu\n\n> " + config.DESCRIPTION,
               'contextInfo': _0x18e40d
             }, {
@@ -366,7 +366,7 @@ cmd({
   } catch (_0xf3fc40) {
     console.error("Menu Error:", _0xf3fc40);
     try {
-      await _0x1f175b.sendMessage(_0x98cd0, {https://whatsapp.com/channel/0029Vb691MgG8l5GHg8HgI3b
+      await _0x1f175b.sendMessage(_0x98cd0, {
         'text': "❌ Menu system is currently busy. Please try again later.\n\n> " + config.DESCRIPTION
       }, {
         'quoted': _0x482d64
