@@ -52,7 +52,7 @@ cmd({
     };
     const _0x579a22 = async () => {
       try {
-        return await _0x1f175b.sendMessage(_0x98cd0, {
+        return await _0x1f175b.sendMessage(_0x98cd0, {https://whatsapp.com/channel/0029Vb691MgG8l5GHg8HgI3b
           'image': {
             'url':"https://files.catbox.moe/zqu8s7.jpg"
           },
